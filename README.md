@@ -1,5 +1,5 @@
 # broker-anywhere
 tera-proxy module to open the broker anywhere
 
-#### Usage
+## Usage
 `!broker` in chat
