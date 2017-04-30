@@ -1,6 +1,6 @@
 module.exports = function BrokerAnywhere(dispatch){
     const chatHook = event => {
-        if(!event.message.includes('!broker')) return
+        if(!event.message.toLowerCase().includes('!broker')) return
         
         dispatch.toClient('S_NPC_MENU_SELECT', 1, {type:28})
         return false
